@@ -22,3 +22,6 @@ let persona = { "nombre": "María", "edad": 27, "profesión": "diseñadora" };
 for (let dato in persona) {
     console.log(dato + ":", persona[dato]);
 }
+
+// Printing separating line of dashes
+console.log("------------------");
