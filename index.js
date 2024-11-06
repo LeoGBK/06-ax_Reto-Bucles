@@ -3,3 +3,7 @@
 for (let i = 1; i <= 5; i++) {
     console.log(i);
 }
+
+// Printing separating line of dashes
+
+console.log("------------------")
