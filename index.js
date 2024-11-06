@@ -1,9 +1,14 @@
 // Code for printing numbers from 1 to 5
-
 for (let i = 1; i <= 5; i++) {
     console.log(i);
 }
 
 // Printing separating line of dashes
+console.log("------------------");
 
-console.log("------------------")
+// Code for navigating a list of colors
+let lista = ["rojo", "verde", "azul", "amarillo"];
+
+for (let color of lista) {
+    console.log(color);
+}
