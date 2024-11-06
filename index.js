@@ -38,3 +38,10 @@ console.log("El número más cercano a 100 cuyo cuadrado es menor que 100 es:", 
 
 // Printing separating line of dashes
 console.log("------------------");
+
+// Printing even numbers from 2 to 10
+for (i = 1; i <= 10; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
+    }
+}
