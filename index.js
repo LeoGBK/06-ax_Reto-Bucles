@@ -35,3 +35,6 @@ do {
 }
 while (cuadrado < 100);
 console.log("El número más cercano a 100 cuyo cuadrado es menor que 100 es:", i);
+
+// Printing separating line of dashes
+console.log("------------------");
