@@ -12,3 +12,6 @@ let lista = ["rojo", "verde", "azul", "amarillo"];
 for (let color of lista) {
     console.log(color);
 }
+
+// Printing separating line of dashes
+console.log("------------------");
