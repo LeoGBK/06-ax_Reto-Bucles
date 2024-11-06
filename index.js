@@ -15,3 +15,10 @@ for (let color of lista) {
 
 // Printing separating line of dashes
 console.log("------------------");
+
+// Code for navigating an object persona
+let persona = { "nombre": "María", "edad": 27, "profesión": "diseñadora" };
+
+for (let dato in persona) {
+    console.log(dato + ":", persona[dato]);
+}
