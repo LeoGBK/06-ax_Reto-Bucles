@@ -25,3 +25,13 @@ for (let dato in persona) {
 
 // Printing separating line of dashes
 console.log("------------------");
+
+// Code for calculating the closer number whose square is less than 100
+let i = 0;
+let cuadrado = 0;
+do {
+    i++;
+    cuadrado = i * i;
+}
+while (cuadrado < 100);
+console.log("El número más cercano a 100 cuyo cuadrado es menor que 100 es:", i);
